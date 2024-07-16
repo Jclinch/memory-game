@@ -1,0 +1,17 @@
+body {
+    /* border: red solid; */
+    width: 80%;
+    margin: auto;
+}
+
+#grid {
+    /* border: solid 2px red; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
